@@ -1,0 +1,5 @@
+export const esQuery = {
+    "operationName": "Query",
+    "variables": {},
+    "query": <Enter GQL query here>
+}
