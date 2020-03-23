@@ -14,6 +14,14 @@ Run postman-to-k6:
 postman-to-k6 COLLECTION_NAME.postman_collection.json -o k6-script.js
 ```
 
+Initialize environment configuration:
+
+```shell
+cp json.js.shadow json.js
+
+cp constants.js.shadow constants.js
+```
+
 Run k6 script:
 ```shell
 k6 run k6-script.js

@@ -3,3 +3,7 @@ export const projectID = <project_id>;
 export const headers = {
     "Content-Type": "application/json"
 };
+export const ES_DOMAIN=<es_domain>
+
+export const AWS_ACCESS_KEY_ID=<aws_access_key_id>;
+export const AWS_SECRET_ACCESS_KEY=<aws_secret_access_key>;
