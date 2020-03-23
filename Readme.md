@@ -2,6 +2,8 @@
 
 Export your postman collection & create k6 script using below commands.
 
+Install K6 load testing tool follow this https://k6.io/docs/getting-started/installation
+
 If not installed postman-to-k6 install:
 ```shell
 npm install -g postman-to-k6
